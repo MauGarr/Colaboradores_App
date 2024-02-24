@@ -14,7 +14,7 @@ export function ColaboradorList() {
         loadColaboradores();
     }, []);
 
-    return <div>
+    return <div className="grid grid-cols-3 gap-3">
         {colaboradores.map(colaborador => (
             <ColaboradorCard key={colaborador.idcolaborador} colaborador={colaborador} /> 
         ))}
