@@ -6,7 +6,7 @@ class Colaborador(models.Model):
     nombre = models.CharField(max_length=45)
     apellido = models.CharField(max_length=45)
     direccion = models.CharField(max_length=45)
-    edad = models.SmallIntegerField(validators=[MinValueValidator(0), MaxValueValidator(100)])
+    edad = models.SmallIntegerField(validators=[MinValueValidator(18), MaxValueValidator(100)])
     profesion = models.CharField(max_length=45)
     estadocivil = models.CharField(max_length=45) 
 

@@ -61,8 +61,8 @@ export function ColaboradorFormPage() {
         <input className='bg-gray-800  p-3 rounded-lg block w-full mb-3' type="text" placeholder="Dirección" {...register("direccion", {required: true, maxLength: 45})} />
         {errors.direccion && <span>¡Debes completar este campo!</span>}
         
-        <input className='bg-gray-800  p-3 rounded-lg block w-full mb-3' type="number" placeholder="Edad" {...register("edad", {required: true, min: 0, max: 100})} />
-        {errors.edad && <span>¡Debes ingresar un valor entre 0 a 100!</span>}
+        <input className='bg-gray-800  p-3 rounded-lg block w-full mb-3' type="number" placeholder="Edad" {...register("edad", {required: true, min: 18, max: 100})} />
+        {errors.edad && <span>¡Debes ingresar un valor entre 18 a 100!</span>}
         
         <input className='bg-gray-800  p-3 rounded-lg block w-full mb-3' type="text" placeholder="Profesión" {...register("profesion", {required: true, maxLength: 45})} />
         {errors.profesion && <span>¡Debes completar este campo!</span>}
