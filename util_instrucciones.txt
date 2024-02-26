@@ -1,0 +1,44 @@
+
+---LINK VIDEO INSTRUCCIONES USO---
+https://drive.google.com/file/d/1U4ECc1FHNtVOWFh3VVM5gW1O8jUpIYXI/view?usp=sharing
+
+---BACKEND---
+
+Para poder ejecutar el backend por parte de Django:
+
+-Crear entorno virtual
+    -Ejecutar comando en la ruta: \Prueba_Tecnica
+        virtualenv -p python venv
+    -Activar entorno en la misma ruta: \Prueba_Tecnica
+        .\venv\Scripts\activate
+    -Ejecutar comando en la ruta: \Prueba_Tecnica
+        python manage.py runserver
+
+---FRONTEND---
+
+Para poder ejecutar el frontend por parte de React:
+
+-instalar node.js
+-instalar
+    npm install react react-dom react-scripts
+
+-instalar siempre en el entorno virtual con la ruta: \DATOSEMPLEADO_FE
+    -para poder trabajar el proyecto con react y vite
+        npm install -g create-vite
+    -para ejecutar el frontend en la ruta: \DATOSEMPLEADO
+        npm run dev
+
+----Instalar (necesario)----
+
+Django              5.0.2
+charset-normalizer  3.3.2
+coreapi             2.3.3
+coreschema          0.0.4
+django-cors-headers 4.3.1
+djangorestframework 3.14.0
+
+    ---conectar base de datos MYSQL---
+        PyMySQL
+        mysqlclient (recomendado)
+
+        cualquiera de las 2
