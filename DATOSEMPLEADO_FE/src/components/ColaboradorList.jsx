@@ -63,7 +63,7 @@ export function ColaboradorList() {
         </thead>
         <tbody className="bg-gray divide-y divide-gray-200">
         {colaboradores.map(colaborador => (
-            <tr key={colaborador.idcolaborador}>
+            <tr key={colaborador.idcolaborador} className="hover:bg-purple-800 hover.cursor-pointer">
             <td className="px-4 py-3 whitespace-nowrap">{colaborador.nombre}</td>
             <td className="px-4 py-3 whitespace-nowrap">{colaborador.apellido}</td>
             <td className="px-4 py-3 whitespace-nowrap">{colaborador.direccion}</td>
