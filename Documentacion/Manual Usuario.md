@@ -28,7 +28,7 @@ Esta opción nos permite agregar nuevos colaboradores con los datos correspondie
 
 **Botón Guardar**
 
-![buttonAgregadoColab](images/agregadoColab.png "Botón Guardar")
+![buttonAgregadoColab](images/agregadocolab.png "Botón Guardar")
 
 ### C. Botón Editar
 Al presionar este botón el sitio nos permite modificar cualquier dato del colaborador, a su misma vez podemos **guardar** o **eliminar** los datos de dicho colaborador.
